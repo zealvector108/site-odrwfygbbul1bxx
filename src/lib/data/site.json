@@ -1,40 +1,244 @@
 {
-	"templateId": "generic",
-	"businessName": "Your Business",
-	"tagline": "Professional services you can trust",
-	"primaryColor": "#7c3aed",
-	"secondaryColor": "#f3f4f6",
-	"font": "Inter",
-	"heroImageUrl": "",
-	"aboutImageUrl": "",
-	"aboutText": "",
-	"footerText": "",
-	"whatsappNumber": "",
-	"googleMapsEmbedUrl": "",
-	"web3formsAccessKey": "",
-	"email": "",
-	"phone": "",
-	"address": "",
-	"hours": "",
-	"hero": { "headline": "", "subheadline": "", "ctaText": "Get a Quote", "image": "", "imagePrompt": "" },
-	"about": { "text": "", "image": "", "imagePrompt": "" },
-	"contact": { "email": "", "phone": "", "address": "", "hours": "", "whatsappNumber": "" },
-	"services": [],
-	"products": [],
-	"testimonials": [],
-	"pages": [
-		{
-			"slug": "home",
-			"name": "Home",
-			"sections": [
-				{ "type": "hero" },
-				{ "type": "services" },
-				{ "type": "testimonials" },
-				{ "type": "about" },
-				{ "type": "contact" },
-				{ "type": "footer" }
-			]
-		}
-	],
-	"sections": []
+  "aboutImageUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800",
+  "aboutText": "We believe fitness should be accessible, enjoyable, and tailored to your unique goals. Our certified trainers work one-on-one with every client.",
+  "address": "Shop No. 149, Vardhman Dee Cee Plaza, Plot No 7, Pocket 1, Sector 11 Dwarka, Dwarka, New Delhi, Delhi, 110075, India",
+  "businessName": "Bakeman Cake & Pastry Palace - Cake Shop in Dwarka, Cake Home Delivery",
+  "contact": {
+    "email": "info@unlockyourpotential.com",
+    "phone": "+91 83769 53575",
+    "address": "Shop No. 149, Vardhman Dee Cee Plaza, Plot No 7, Pocket 1, Sector 11 Dwarka, Dwarka, New Delhi, Delhi, 110075, India",
+    "hours": "Every day: 9:30 AM – 10:00 PM",
+    "whatsappNumber": "447123456789"
+  },
+  "email": "info@unlockyourpotential.com",
+  "featuredItems": [],
+  "font": "Inter",
+  "footerText": "Transform your body, transform your life.",
+  "googleMapsEmbedUrl": "https://www.google.com/maps/embed/v1/place?key=AIzaSyAKwS9BEBQFdptrR2GVLh772I5vYgWTQE4&q=place_id:ChIJG5ByDNoaDTkRqTzzUsI8zUA",
+  "heroImageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1600",
+  "hours": "Every day: 9:30 AM – 10:00 PM",
+  "industry": "restaurant",
+  "pages": [
+    {
+      "name": "Home",
+      "sections": [
+        {
+          "style": "with-button",
+          "type": "hero"
+        },
+        {
+          "columns": 3,
+          "type": "services"
+        },
+        {
+          "layout": "grid",
+          "type": "testimonials"
+        },
+        {
+          "type": "about"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "home"
+    },
+    {
+      "name": "Services",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "services"
+        },
+        {
+          "type": "contact"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "services"
+    },
+    {
+      "name": "About",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "about"
+        },
+        {
+          "type": "testimonials"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "about"
+    },
+    {
+      "name": "Contact",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "contact"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "contact"
+    }
+  ],
+  "phone": "+91 83769 53575",
+  "primaryColor": "#6B21A5",
+  "products": [],
+  "secondaryColor": "#FACC15",
+  "sections": [
+    {
+      "layout": "centered",
+      "style": "with-button",
+      "type": "hero"
+    },
+    {
+      "layout": "grid",
+      "type": "testimonials"
+    },
+    {
+      "layout": "default",
+      "type": "contact"
+    },
+    {
+      "columns": 3,
+      "type": "services"
+    },
+    {
+      "plans": [
+        {
+          "features": [
+            "1 workout plan",
+            "Community support"
+          ],
+          "name": "Basic",
+          "price": 29
+        },
+        {
+          "features": [
+            "Unlimited plans",
+            "1-on-1 coach"
+          ],
+          "name": "Pro",
+          "popular": true,
+          "price": 59
+        },
+        {
+          "features": [
+            "All Pro features",
+            "Nutrition guide",
+            "Priority support"
+          ],
+          "name": "Elite",
+          "price": 99
+        }
+      ],
+      "title": "Membership Plans",
+      "type": "pricing"
+    }
+  ],
+  "services": [
+    {
+      "description": "Generate workout plan tailored to your body, goals, and [FOCUS] level.",
+      "durationHours": "N/A",
+      "image": "",
+      "imagePrompt": "",
+      "name": "Personalize Workouts",
+      "popular": true,
+      "priceFrom": 100
+    },
+    {
+      "description": "Whether it's running, swimming, or cycling, we help you hit your personal best in [FOCUS].",
+      "durationHours": "N/A",
+      "image": "",
+      "imagePrompt": "",
+      "name": "Achieve Your Goals",
+      "popular": false,
+      "priceFrom": 50
+    },
+    {
+      "description": "Get meal plans and nutrition advice to complement your [FOCUS] training.",
+      "durationHours": "N/A",
+      "image": "",
+      "imagePrompt": "",
+      "name": "Nutrition Guidance",
+      "popular": false,
+      "priceFrom": 75
+    }
+  ],
+  "tagline": "Personalized [FOCUS] plans tailored to your goals",
+  "templateId": "workouts",
+  "testimonials": [
+    {
+      "author": "James T.",
+      "location": "Manchester",
+      "rating": 5,
+      "text": "This programme completely transformed my fitness level in just 8 weeks."
+    },
+    {
+      "author": "Sarah M.",
+      "location": "London",
+      "rating": 5,
+      "text": "The HIIT sessions are intense but incredibly rewarding. Best trainer ever."
+    },
+    {
+      "author": "David K.",
+      "location": "Bristol",
+      "rating": 5,
+      "text": "I've tried many fitness programmes and this is by far the best structured."
+    },
+    {
+      "author": "Emma R.",
+      "location": "Birmingham",
+      "rating": 5,
+      "text": "The running programme helped me complete my first half marathon!"
+    },
+    {
+      "author": "Lisa H.",
+      "location": "Leeds",
+      "rating": 5,
+      "text": "Professional coaching with real results. Down two dress sizes in 3 months."
+    },
+    {
+      "author": "Oliver P.",
+      "location": "London",
+      "rating": 4,
+      "text": "The yoga sessions are a great complement to the strength training."
+    },
+    {
+      "author": "Rachel G.",
+      "location": "Edinburgh",
+      "rating": 5,
+      "text": "Flexible scheduling and fantastic support from the coaching team."
+    },
+    {
+      "author": "Tom B.",
+      "location": "Glasgow",
+      "rating": 5,
+      "text": "My posture has improved dramatically. Highly recommend to everyone."
+    },
+    {
+      "author": "Chloe W.",
+      "location": "Manchester",
+      "rating": 4,
+      "text": "The community here keeps me motivated every single week."
+    }
+  ],
+  "whatsappNumber": "447123456789"
 }
